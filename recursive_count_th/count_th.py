@@ -14,3 +14,4 @@ def count_th(word):
         counter = count_th(word[1:]) # if woord has no th contiue
     return counter
 
+print(count_th("etheral"))
